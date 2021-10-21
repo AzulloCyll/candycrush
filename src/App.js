@@ -75,6 +75,15 @@ const App = () => {
     }
   };
 
+  const moveIntoSquareBelow = () => {
+    for (let i = 0; i < i - width; i++) {
+      if (currentColorArrangement[i] + width === "") {
+        currentColorArrangement[i + width] = currentColorArrangement;
+        currentColorArrangement[i] = "";
+      }
+    }
+  };
+
   const createBoard = () => {
     const randomColorArrangement = [];
     for (let i = 0; i < width * width; i++) {
@@ -124,3 +133,4 @@ const App = () => {
 };
 
 export default App;
+``;
