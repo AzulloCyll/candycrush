@@ -1,19 +1,27 @@
-app {
-	display: flex;
-	padding: 30px;
-	border: 0;
+.app {
+  display: flex;
+  padding: 30px;
+  border: 0;
+  margin: 0 auto;
 }
 
 .game {
-	width: 560px;
-	height: 560px;
-	display: flex;
-	flex-wrap: wrap;
-	border: 0;
+  width: 560px;
+  height: 560px;
+  display: flex;
+  flex-wrap: wrap;
+  border: 0;
+  text-align: center;
 }
 
 .game img {
-	width: 70px;
-	height: 70px;
-	border: 0;
+  width: 70px;
+  height: 70px;
+  border: 0;
+}
+
+.score-board {
+  display: block;
+  flex-wrap: wrap;
+  margin-left: 40px;
 }
